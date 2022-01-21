@@ -1,63 +1,67 @@
  /* sets page background color and margins*/
 
 body {
-  background-color: #CFA5B4;
-  margin: 0;
+	background-color: #CFA5B4;
+	margin: 0;
 }
 /* creates and sets margins for background container color for the header words */
+
 header {
 	height: 70px;
 	background-color: #fff;
 }
-
 /* creates and sets for background container for the footer words*/
+
 footer {
 	background-color: #bdcbd9;
 }
 /*sets dimensions and placement of referenced image*/
+
 img {
-  margin: auto;
-  display: block;
-  width: 70%;
+	margin: auto;
+	display: block;
+	width: 70%;
 }
-
 /* set style for Header 1 code blocks*/
-h1 {
-  color: #636564 ;
-  font-family: Georgia, Verdana , serif ;
-  font-size: 35px;
-  text-align: center;
 
+h1 {
+	color: #636564;
+	font-family: Georgia, Verdana, serif;
+	font-size: 35px;
+	text-align: center;
 }
 /* set style for Header 2 code blocks*/
+
 h2 {
-  color: #58475C;
-  font-family: unset, 'Lucida Sans';
-  font-weight: 900;
-  font-size: 50px;
-  text-align: center; 
+	color: #58475C;
+	font-family: unset, 'Lucida Sans';
+	font-weight: 900;
+	font-size: 50px;
+	text-align: center;
 }
 /* set style for Header 3 code blocks*/
+
 h3 {
-  color: #3E2A35;
-  font-family: Calibri, sans-serif;
-  font-style: oblique;
-  font-size: 28px;
-  text-align: center;
+	color: #3E2A35;
+	font-family: Calibri, sans-serif;
+	font-style: oblique;
+	font-size: 28px;
+	text-align: center;
 }
 /* set style for Header 4 code blocks*/
+
 h4 {
-  color: #636564 ;
-  font-family: Georgia, Verdana , serif ;
-  font-size: 30px;
-  text-align: center;
-  line-height: 15px;
+	color: #636564;
+	font-family: Georgia, Verdana, serif;
+	font-size: 30px;
+	text-align: center;
+	line-height: 15px;
 }
 /* set style for paragraph code blocks*/
-p {
-  color: #000000;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-  text-align: center;
-}
 
+p {
+	color: #000000;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	text-align: center;
+}
