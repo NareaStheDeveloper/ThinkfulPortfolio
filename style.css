@@ -1,56 +1,43 @@
+ /* sets page background color and margins*/
 
 body {
   background-color: #CFA5B4;
+  margin: 0;
 }
- 
-.pageContainer {
-  height: auto;
-  width: 940px;
-  margin: 80px auto 0 auto;
-  padding: 20px;
-  background-color: #FAE3E3;
-}
- 
-.imageContainer {
-  float: left;
-  width: 650px;
-  height: auto;
-}
- 
-.textContainer {
-  float: left;
-  height: auto;
-  width: 300px;
-  margin-left: 60px;
-  margin-top: 60px;
-  background-color: #F7D4BC;
+/* creates and sets margins for background container color for the header words */
+header {
+	height: 70px;
+	background-color: #fff;
 }
 
+/* creates and sets for background container for the footer words*/
+footer {
+	background-color: #bdcbd9;
+}
+/*sets dimensions and placement of referenced image*/
 img {
-  height:auto
-  width: 100%;
+  margin: auto;
+  display: block;
+  width: 70%;
 }
 
-
-
-
-
+/* set style for Header 1 code blocks*/
 h1 {
   color: #636564 ;
-  font-family: Verdana , serif ;
+  font-family: Georgia, Verdana , serif ;
   font-size: 35px;
   text-align: center;
 
 }
-
+/* set style for Header 2 code blocks*/
 h2 {
   color: #58475C;
-  font-family: Arial, 'Lucida Sans';
+  font-family: unset, 'Lucida Sans';
   font-weight: 900;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center; 
 }
-
+/* set style for Header 3 code blocks*/
 h3 {
   color: #3E2A35;
   font-family: Calibri, sans-serif;
@@ -58,15 +45,15 @@ h3 {
   font-size: 28px;
   text-align: center;
 }
-
+/* set style for Header 4 code blocks*/
 h4 {
   color: #636564 ;
-  font-family: Verdana , serif ;
+  font-family: Georgia, Verdana , serif ;
   font-size: 30px;
   text-align: center;
-  font-style: italic;
+  line-height: 15px;
 }
-
+/* set style for paragraph code blocks*/
 p {
   color: #000000;
   font-family: 'Times New Roman', Times, serif;
