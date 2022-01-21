@@ -23,15 +23,6 @@ img {
 	width: 30%;
 }
 
-.container ul {
-    border: 2px solid red;
-    display: inline-block;
-    margin: 10px 0;
-    padding: 2px;
-}
-.container li {
-    display: inline-block;
-}
 
 /* set style for Header 1 code blocks*/
 
